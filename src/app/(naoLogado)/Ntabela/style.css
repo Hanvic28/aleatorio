@@ -1,10 +1,25 @@
 .container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .links {
 	margin-right: 0.5em;
 	text-decoration: none;
 	background-color: lightblue;
+}
+
+.logo {
+	height: 3%;
+	width: 3%;
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+.links {
+	display: flex;
+	border: 2px;
+	border-style: solid;
 }

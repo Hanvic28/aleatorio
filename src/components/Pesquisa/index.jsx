@@ -1,8 +1,10 @@
+import './style.css';
+import Botao from '../Botao';
 export default function Pesquisa(props) {
 	return (
-		<div>
+		<div className="BtnPesquisar">
 			<input type="text" id="txtBusca" placeholder="Buscar..." />
-			<button id="btnBusca">Buscar</button>
+			<Botao nome="Pesquisar" />
 		</div>
 	);
 }

@@ -1,0 +1,8 @@
+.BtnPesquisar {
+	display: flex;
+}
+
+input {
+	height: 14px;
+	margin-right: 5px;
+}
